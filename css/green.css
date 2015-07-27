@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    margin: 0;
+}
+
+div {
+	height: auto;
+    min-height: 120px;
+	width: auto;
+    overflow: auto;
+}
+
+#header {
+	background-color: black;
+}
+
+#footer {
+	background-color: black;
+}
+
+#logo_top {
+    min-height: 226px;
+    height: auto;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #0C0C0D),
+        color-stop(0.6, #555175),
+        color-stop(1, #A8A4CA)
+    );
+    background-image: -o-linear-gradient(bottom, #0C0C0D 0%, #555175 60%, #A8A4CA 100%);
+    background-image: -moz-linear-gradient(bottom, #0C0C0D 0%, #555175 60%, #A8A4CA 100%);
+    background-image: -webkit-linear-gradient(bottom, #0C0C0D 0%, #555175 60%, #A8A4CA 100%);
+    background-image: -ms-linear-gradient(bottom, #0C0C0D 0%, #555175 60%, #A8A4CA 100%);
+    background-image: linear-gradient(to bottom, #0C0C0D 0%, #555175 60%, #A8A4CA 100%);
+}
+
+#logo_bottom {
+    min-height: 226px;
+    height: auto;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #A8A4CA),
+        color-stop(0.4, #555175),
+        color-stop(1, #0C0C0D)
+    );
+    background-image: -o-linear-gradient(bottom, #A8A4CA 0%, #555175 40%, #0C0C0D 100%);
+    background-image: -moz-linear-gradient(bottom, #A8A4CA 0%, #555175 40%, #0C0C0D 100%);
+    background-image: -webkit-linear-gradient(bottom, #A8A4CA 0%, #555175 40%, #0C0C0D 100%);
+    background-image: -ms-linear-gradient(bottom, #A8A4CA 0%, #555175 40%, #0C0C0D 100%);
+    background-image: linear-gradient(to bottom, #A8A4CA 0%, #555175 40%, #0C0C0D 100%);
+}
